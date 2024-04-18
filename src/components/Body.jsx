@@ -15,12 +15,13 @@ const Body = () => {
       */}
         
         <div className='main_body'>
-          <div className='text-black bg-red-500 h-80 text-6xl  text-center flex justify-center items-center  ' >
-            <h1>Welcome To</h1>
-            
+          <div className=' h-80 text-6xl  text-center flex justify-center items-center  ' >
+            <h1>Welcome To <br/> <h2 className='text-white' >Fresh Fusion Catering</h2> </h1>
+           
           </div>
         </div>
-
+         
+          
     </>
   )
 }

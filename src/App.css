@@ -2,9 +2,10 @@
     background-image: url('images/pic10.jpg');
     background-size: cover;
     background-position: center;
-    color: white; 
+    color: rgb(255, 238, 0); 
     height: 400px;   
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
