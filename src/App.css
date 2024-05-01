@@ -9,3 +9,12 @@
     align-items: center;
 }
 
+.all_img{
+    padding-top: 40px;
+    display: flex;
+    justify-items: center;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+

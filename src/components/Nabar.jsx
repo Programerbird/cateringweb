@@ -17,7 +17,7 @@ const Nabar = () => {
     <a class="nav-link active" aria-current="page" href="#">Wedding</a>
     <a class="nav-link active" aria-current="page" href="#">Gallery</a>
     <a class="nav-link active" aria-current="page" href="#">Contact</a>
-    <button type="button" class="btn btn-warning rounded-full ">+1 (650) 305-3943</button>
+    <button type="button" class="  btn btn-warning rounded-full ">+1 (650) 305-3943</button>
     <a href="#"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/532/212/small/usa-01.jpg" height="24" width="24" alt="en"/> English</a>
   </div>
 </div>
