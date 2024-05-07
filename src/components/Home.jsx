@@ -3,6 +3,7 @@ import pic1 from '../images/pic1.png'
 import pic2 from '../images/pic2.png'
 import pic3 from '../images/pic3.png'
 import pic10 from '../images/pic10.jpg'
+import chef from '../images/chef.jpg'
 import '../App.css'
 import Contact from './Contact'
  const Home = () => {
@@ -22,14 +23,13 @@ import Contact from './Contact'
         <div>
         </div>
       </div>
-        <div>
-          <h1 className='text-black text-5xl flex justify-center py-3 ' >About us </h1>
+        <div className='ab' >
+          <h1 className='text-black text-5xl flex justify-center py-3 text-white' >About us </h1>
           <h2 className='flex justify-center text-center ' >Catering is not just about food. it's about creating memorable experiences.Good catering is the secret<br/>
            ingredient thta makes an event truly unforgettable.We provide delicious food on time.
            Good eating makes you think positively. </h2>
-           <div className='all_img' >
-          <img  src={pic1} />
-          <img  src={pic3} />
+          <div className='chef' >
+            <img src={chef} />
           </div>
         </div>
         <Contact />

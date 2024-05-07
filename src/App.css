@@ -1,5 +1,5 @@
 .main_body{
-    background-image: url('images/pic10.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.397), rgba(0,0,0,1)), url('images/pic10.jpg');
     background-size: cover;
     background-position: center;
     color: rgb(255, 238, 0); 
@@ -9,17 +9,18 @@
     align-items: center;
 }
 
-.all_img{
-    padding-top: 40px;
-    display: flex;
-    justify-items: center;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+.ab{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.596), rgba(0,0,0,1)), url("images/ab.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: rgb(255, 238, 0);
+  text-align: center;
 }
 
+
 .menu{  
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1)), url("images/pic5.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.342), rgba(0,0,0,1)), url("images/pic5.jpg");
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -27,3 +28,28 @@
   text-align: center;
 }
 
+.breakfast{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.253), rgb(0, 0, 0)), url("images/br.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: rgb(255, 238, 0);
+  text-align: center;
+}
+
+.lunch{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgb(0, 0, 0)), url("images/lu.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  color: rgb(255, 238, 0);
+  text-align: center;
+}
+
+.chef{
+  height: 70%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding-top: 15px;
+}
