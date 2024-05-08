@@ -20,12 +20,13 @@
 
 
 .menu{  
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.342), rgba(0,0,0,1)), url("images/pic5.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.397), rgba(0,0,0,1)), url('images/pic5.jpg');
   background-size: cover;
   background-position: center;
-  height: 300px;
-  color: rgb(255, 238, 0);
-  text-align: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 238, 0); 
+  height: 30vh;
+  width: 100vw;   
 }
 
 .breakfast{
@@ -41,7 +42,7 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgb(0, 0, 0)), url("images/lu.jpg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 600px;
   color: rgb(255, 238, 0);
   text-align: center;
 }
@@ -52,4 +53,36 @@
   align-content: center;
   display: flex;
   padding-top: 15px;
+}
+
+.dinner{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.384), rgb(0, 0, 0)), url("images/dinner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: rgb(255, 238, 0);
+  text-align: center;
+}
+
+.box_m{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(0,0,0,1)), url('images/bm.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(255, 238, 0); 
+  height: 100vh;
+  width: 100vw;   
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+  
+.sq_1{
+  display: flex;
+  justify-content: center;
+}
+
+.list{
+  
 }
